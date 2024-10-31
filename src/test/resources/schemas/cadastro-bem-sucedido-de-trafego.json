@@ -1,0 +1,65 @@
+{
+  "definitions": {},
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "https://example.com/object1730239677.json",
+  "title": "Root",
+  "type": "object",
+  "required": [
+    "numeroTrafego",
+    "estado",
+    "cidade",
+    "cituacao",
+    "dataOcorrido"
+  ],
+  "properties": {
+    "numeroTrafego": {
+      "$id": "#root/numeroTrafego",
+      "title": "Numerotrafego",
+      "type": "integer",
+      "examples": [
+        1
+      ],
+      "default": 0
+    },
+    "estado": {
+      "$id": "#root/estado",
+      "title": "Estado",
+      "type": "string",
+      "default": "",
+      "examples": [
+        "São Paulo"
+      ],
+      "pattern": "^.*$"
+    },
+    "cidade": {
+      "$id": "#root/cidade",
+      "title": "Cidade",
+      "type": "string",
+      "default": "",
+      "examples": [
+        "São Paulo"
+      ],
+      "pattern": "^.*$"
+    },
+    "cituacao": {
+      "$id": "#root/cituacao",
+      "title": "Cituacao",
+      "type": "string",
+      "default": "",
+      "examples": [
+        "Ativo"
+      ],
+      "pattern": "^.*$"
+    },
+    "dataOcorrido": {
+      "$id": "#root/dataOcorrido",
+      "title": "Dataocorrido",
+      "type": "string",
+      "default": "",
+      "examples": [
+        "2024-10-17"
+      ],
+      "pattern": "^.*$"
+    }
+  }
+}
